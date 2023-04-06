@@ -12,5 +12,23 @@
 </head>
 <body>
     <h1>YOUR GAME HERE!</h1>
+    <form>
+      <input id="player1-guess" placeholder="Kobi's Guess" type="text">
+      <input id="player2-guess" placeholder="Luis's Guess" type="text">
+      <button id="submit-button">Submit</button>
+    </form>
+    <h2 id="result">Make a guess</h2>
+    <h3>Rounds: <span id="rounds">0</span></h3>
+    <table>
+      <thead>
+        <th>round</th>
+        <th>Player 1</th>
+        <th>Player 2</th>
+      </thead>
+      <tbody id="history">
+
+      </tbody>
+    </table>
+    <button id="reset-button" disabled>Reset</button>
 </body>
 </html>

@@ -5,22 +5,26 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js"
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PrimeAcademy/group-number-guessing-game-starter.git"
+    "url": "git+https://github.com/kobijones111529/group-number-guessing-game-starter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PrimeAcademy/group-number-guessing-game-starter/issues"
+    "url": "https://github.com/kobijones111529/group-number-guessing-game-starter/issues"
   },
-  "homepage": "https://github.com/PrimeAcademy/group-number-guessing-game-starter#readme",
+  "homepage": "https://github.com/kobijones111529/group-number-guessing-game-starter#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
